@@ -7,7 +7,6 @@ on:
 
 jobs:
   build:
-    runs-policy: read
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
