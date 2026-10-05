@@ -2,7 +2,7 @@ name: Update IPTV Playlist
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # Runs automatically every 6 hours
+    - cron: '0 0 * * *'  # Runs automatically once a day (at midnight UTC)
   workflow_dispatch: # Allows manual trigger anytime
 
 permissions:
